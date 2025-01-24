@@ -1,11 +1,3 @@
-Hint: use the DATE_PART and TO_CHAR functions.
-
-We also want to add a column bucketizing the data in 4 seasons: winter, spring, summer, autumn.
-
-Hint: use the CASE WHEN statements.
-
-
-
 WITH daily_data AS (
     SELECT * 
     FROM {{ref('staging_weather_daily')}}
